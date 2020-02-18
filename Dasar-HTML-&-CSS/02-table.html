@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>02-table</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid goldenrod;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th {
+            height: 50px;
+        }
+
+        th,
+        td {
+            padding: 15px;
+            text-align: left;
+        }
+
+        tr:hover {
+            background-color: gray;
+        }
+
+        tr:nth-child(even) {
+            background-color: greenyellow;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Colspan</h1>
+    <table>
+        <tr>
+            <th>Nama</th>
+            <th colspan="2">Kota</th>
+            <th>Goldar</th>
+        </tr>
+        <tr>
+
+            <td>Obil</td>
+            <td colspan="2">Malang</td>
+            <td>B</td>
+
+        </tr>
+        <tr>
+            <td>Hamas</td>
+            <td colspan="2">Mataram</td>
+            <td>AB</td>
+        </tr>
+    </table>
+    <h1>Rowspan</h1>
+    <table>
+        <tr>
+            <th>Leanguage</th>
+            <th>Framework</th>
+        </tr>
+        <tr>
+            <td rowspan="2">PHP</td>
+            <td>Laravel</td>
+        </tr>
+        <tr>
+            <td>Codeigniter</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Ruby</td>
+            <td>Ruby in Rails</td>
+        </tr>
+        <tr>
+            <td>Sinatra</td>
+        </tr>
+    </table>
+</body>
+
+</html>
