@@ -1,0 +1,41 @@
+.wadah {
+    width: 1280px;
+    margin: auto;
+}
+
+.header {
+    background-color: aqua;
+    height: 50px;
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.sidebar {
+    background-color: bisque;
+    float: left;
+    height: 960px;
+    width: 25%;
+    font-size: 1.5em;
+    padding-top: 20px;
+    text-align: center;
+
+}
+
+.content {
+    background-color: cadetblue;
+    float: right;
+    width: 70%;
+    height: 960px;
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.footer {
+    background-color: darkgoldenrod;
+    text-align: center;
+    clear: both;
+    font-size: 1.5em;
+    background-repeat: ;
+}
